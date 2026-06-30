@@ -39,12 +39,12 @@ sort(ranking.begin(), ranking.end(), [](const Jogador& a, const Jogador& b) {
 
 1. Compilação: Compile o código usando qualquer compilador C++ moderno (suporte a C++11 ou superior).
 ```bash
-g++ -std=c++11 main.cpp -o batalha_naval
+g++ main.cpp -o play
 ```
 
 2. Execução: Rode o executável gerado.
 ```bash
-./batalha_naval
+./play
 ```
 
 3. Fase de Posicionamento: * Digite a coordenada inicial do seu barco (Ex: B3) e defina a direção (H para Horizontal, V para Vertical).
